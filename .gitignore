@@ -1,1 +1,65 @@
-//creation gitignore
+# ---------------------------------
+# Database Administration
+# ---------------------------------
+Search-Replace-DB-*
+srdb2.php
+srdb.php
+
+# ---------------------------------
+# Sitemaps, Licenses, Readmes
+# ---------------------------------
+/readme.html
+/sitemap.xml
+/sitemap.xml.gz
+/license.txt
+
+# ---------------------------------
+# Configs
+# ---------------------------------
+/.htaccess
+/wp-config.php
+
+# ---------------------------------
+# Content
+# ---------------------------------
+wp-content/*
+!wp-content/mu-plugins/
+!wp-content/plugins/
+!wp-content/themes/
+
+# ---------------------------------
+# Default Themes
+# ---------------------------------
+wp-content/themes/twenty*/
+
+# ---------------------------------
+# Default Plugins
+# ---------------------------------
+/wp-content/plugins/akismet
+/wp-content/plugins/hello.php
+
+# ---------------------------------
+# Package Managers
+# ---------------------------------
+node_modules
+
+# ---------------------------------
+# IDEs
+# ---------------------------------
+.idea
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+
+# ---------------------------------
+# Logs and databases
+# ---------------------------------
+*.log
+*.sql
+*.sqlite
+
+# ---------------------------------
+# OS
+# ---------------------------------
+.DS_Store
+*Thumbs.db
