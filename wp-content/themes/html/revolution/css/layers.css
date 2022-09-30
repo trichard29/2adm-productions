@@ -1594,7 +1594,7 @@ website:   	http://www.themepunch.com
 	text-decoration:none;
 }
 
-.tp-caption.NotGeneric-Title,.NotGeneric-Title
+.tp-caption.NotGeneric-SubTitle,.NotGeneric-SubTitle
 {
 	background-color:transparent;
 	border-color:transparent;
@@ -1611,7 +1611,7 @@ website:   	http://www.themepunch.com
 	text-decoration:none;
 }
 
-.tp-caption.NotGeneric-SubTitle,.NotGeneric-SubTitle
+.tp-caption.NotGeneric-Title,.NotGeneric-Title
 {
 	background-color:transparent;
 	border-color:transparent;

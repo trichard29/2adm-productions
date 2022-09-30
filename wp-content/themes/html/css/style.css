@@ -91,7 +91,12 @@ header [class^="container-"] [class^="col-"], header [class^="container-"] [clas
 }
 
 /* base color variable*/
-:root {--base-color: #ff214f;}
+:root {
+    --base-color: #ff214f;
+    --primary-color: #91AED5;
+    --secondary-color: #232838;
+}
+
 
 /* ===================================
     03. Typography
@@ -120,6 +125,12 @@ h6 {font-size:25px; line-height:30px}
 .title-extra-large {font-size: 130px; line-height:120px}
 
 /* text color */
+.text-primary-color, .btn-primary-color {color: var(--primary-color)}
+.text-secondary-color, .btn-secondary-color {color: var(--secondary-color)}
+.text-third-color, .btn-third-color {color: var(--third-color)}
+.text-white-color, .btn-white-color {color: var(--white-color)}
+.text-black-color, .btn-black-color {color: var(--black-color)}
+
 .text-white-2, .btn.text-white-2 {color:#FFF}
 .text-black, .btn.text-black {color:#000}
 .text-extra-dark-gray, .btn.text-extra-dark-gray {color:#232323}
@@ -130,6 +141,7 @@ h6 {font-size:25px; line-height:30px}
 .text-light-gray, .btn.text-light-gray {color:#d6d5d5}
 .text-very-light-gray, .btn.text-very-light-gray {color:#ededed}
 .text-deep-pink, .btn.text-deep-pink {color: var(--base-color)}
+.text-primary
 
 /* dropcap */
 .first-letter {float: left; font-size: 50px; line-height: auto; margin: 0 20px 0 0; text-align: center; padding: 10px 0; font-weight: 600}
@@ -265,6 +277,10 @@ a.text-very-light-gray-hover:hover {color:#ededed !important;}
 /* ===================================
     04. Background color
 ====================================== */
+
+.bg-primary-color {background-color: var(--primary-color);}
+.bg-secondary-color {background-color: var(--secondary-color);}
+.bg-third-color {background-color: var(--third-color);}
 
 .bg-transparent, .background-transparent {background-color: transparent;}
 .bg-white, .background-white {background-color:#fff;}

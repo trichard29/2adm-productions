@@ -1,5 +1,5 @@
  <!-- start footer --> 
- <footer class="footer-center-logo2 padding-five-tb sm-padding-30px-tb">
+ <footer class="footer-center-logo2 padding-one-tb sm-padding-30px-tb">
             <div class="container">
                 <div class="row align-items-center">
                     <!-- start social media -->
@@ -21,7 +21,7 @@
                     <!-- end logo -->
                     <!-- start copyright -->
                     <div class="col-lg-4 col-md-5 text-center alt-font text-small font-weight-500 text-lg-end">
-                        &COPY; 2021 POFO is Powered by <a href="http://www.themezaa.com" target="_blank" title="ThemeZaa">ThemeZaa</a>.
+                        <?= get_field('options_footer','options')['copyright']; ?>
                     </div>
                     <!-- end copyright -->
                 </div>
